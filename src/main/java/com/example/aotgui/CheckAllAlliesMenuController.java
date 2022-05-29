@@ -96,7 +96,7 @@ public class CheckAllAlliesMenuController implements Initializable {
                 resultLabel.setText(temp);
             }
             else {
-                resultLabel.setText("Character is already inside the database! ");
+                resultLabel.setText("Character is already inside the database!");
             }
         } catch (Exception e) {
             resultLabel.setText(String.valueOf(e));
