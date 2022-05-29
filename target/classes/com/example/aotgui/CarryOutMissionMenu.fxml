@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aotgui.CarryOutMissionMenuController">
+   <children>
+      <Text layoutX="48.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter starting point: " />
+      <Button fx:id="btBackToPrevious" layoutX="521.0" layoutY="31.0" mnemonicParsing="false" onAction="#backToPrevious" text="Back" />
+      <Button fx:id="btCheck" layoutX="212.0" layoutY="83.0" mnemonicParsing="false" text="Check" />
+      <TextField layoutX="173.0" layoutY="39.0" />
+   </children>
+</AnchorPane>
